@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  esUtil_win.cpp
+  esUtil.cpp
+  esShader.cpp
+  TGA.cpp
+  Math.cpp
+c:\users\acer\desktop\proiect_2015\newtrainingframework_2015\utilities\math.cpp(10): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\acer\desktop\proiect_2015\newtrainingframework_2015\utilities\math.cpp(104): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\acer\desktop\proiect_2015\newtrainingframework_2015\utilities\math.cpp(208): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  Generating Code...
+  Utilities.vcxproj -> C:\Users\Acer\Desktop\proiect_2015\NewTrainingFramework_2015\BIN-ATI\Utilities.lib

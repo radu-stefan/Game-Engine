@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceManager>
+	<models>
+		<model id="1">
+			<path>Resources/Models/Croco.nfg</path>
+		</model>
+		<model id="2">
+			<path>Resources/Models/Marine.nfg</path>
+		</model>
+		<model id="3">
+			<path>Resources/Models/Woman2.nfg</path>
+		</model>
+		<model id="4">
+			<path>Resources/Models/witch.nfg</path>
+		</model>
+		<model id="5">
+			<path>Resources/Models/House.nfg</path>
+		</model>
+		<model id="20">
+			<path>Resources/Models/SkyBox.nfg</path>
+		</model>
+		<model id="40">
+			<path>Resources/Models/fire.nfg</path>
+		</model>
+		<!-- si aici se adauga toate modelele -->
+	</models>
+	<shaders>
+		<shader id="10">
+			<vs>Resources/Shaders/TriangleShaderVS.vs</vs>
+			<fs>Resources/Shaders/TriangleShaderFS.fs</fs>
+		</shader>
+		<shader id="20">
+			<vs>Resources/Shaders/SkyBoxVS.vs</vs>
+			<fs>Resources/Shaders/SkyBoxFS.fs</fs>
+		</shader>
+		<shader id="30">
+			<vs>Resources/Shaders/TerrainVS.vs</vs>
+			<fs>Resources/Shaders/TerrainFS.fs</fs>
+		</shader>
+		<shader id="40">
+			<vs>Resources/Shaders/FireVS.vs</vs>
+			<fs>Resources/Shaders/FireFS.fs</fs>
+		</shader>
+		<!-- si aici se adauga toate shaderele -->
+	</shaders>
+	<textures>
+		<texture id="1" type="2d">
+			<path>Resources/Textures/Croco.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="2" type="2d">
+			<path>Resources/Textures/Marine.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="3" type="2d">
+			<path>Resources/Textures/Woman2.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="4" type="2d">
+			<path>Resources/Textures/Witch.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="5" type="2d">
+			<path>Resources/Textures/House.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="20" type="cube">
+			<path>Resources/Textures/envMap.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>		
+		<texture id="30" type="2d">
+			<path>Resources/Textures/Terrain_blend_map.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="31" type="2d">
+			<path>Resources/Textures/Rock.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="32" type="2d">
+			<path>Resources/Textures/Grass.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="33" type="2d">
+			<path>Resources/Textures/Dirt.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		
+		<texture id="40" type="2d">
+			<path>Resources/Textures/DisplacementMap.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>		
+		<texture id="41" type="2d">
+			<path>Resources/Textures/fire3.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>		
+		<texture id="42" type="2d">
+			<path>Resources/Textures/fire_mask.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+
+
+
+	</textures>	
+</resourceManager>
